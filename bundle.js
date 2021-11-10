@@ -6064,8 +6064,8 @@ function loadScene() {
     screenQuad.create();
     // square = new Square();
     // let s = readTextFile('./sr/c/cylinder.obj');
-    let s = readTextFile('./src/cyl.obj');
-    let sL = readTextFile('./src/leaf.obj');
+    let s = readTextFile('cyl.obj');
+    let sL = readTextFile('leaf.obj');
     // console.log("cylinder", s);
     square = new __WEBPACK_IMPORTED_MODULE_9__geometry_Mesh__["a" /* default */](s, __WEBPACK_IMPORTED_MODULE_0_gl_matrix__["d" /* vec3 */].fromValues(0, 0, 0));
     square.create();
